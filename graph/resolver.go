@@ -8,4 +8,5 @@ import "github.com/ramonmpacheco/poc-graphql-go/internal/database"
 
 type Resolver struct {
 	CategoryDB *database.Category
+	CourseDB   *database.Course
 }
